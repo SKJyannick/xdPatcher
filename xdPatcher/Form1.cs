@@ -155,11 +155,14 @@ namespace xdPatcher
                 Width = 536;
                 Height = 345;
                 button10.Text = "-";
-            }else if (button10.Text == "-")
+                toolStripStatusLabel3.Text = "Hide more options";
+            }
+            else if (button10.Text == "-")
             {
                 Width = 536;
                 Height = 209;
                 button10.Text = "+";
+                toolStripStatusLabel3.Text = "Show more options";
             }
         }
 

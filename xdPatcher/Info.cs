@@ -22,7 +22,7 @@ namespace xdPatcher
 
         private void Info_Load(object sender, EventArgs e)
         {
-            label4.Text = "Version 1.0";
+            label4.Text = "Version 1.1";
         }
 
         private void Info_FormClosing(object sender, FormClosingEventArgs e)
